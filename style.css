@@ -1,9 +1,17 @@
+body{
+  margin-top:40px;
+  font-family: 'Dosis', sans-serif;
+  background: #eee;
+}
+
 #board {
-  background: #ccc;
+  background: #eee;
   width: 300px; height: 300px;
+  margin: 0 auto;
 }
 #board .space {
   border: 1px solid #aaa;
+  border-radius: 6px;
   box-sizing: border-box;
   float: left;
   line-height: 100px;
@@ -14,7 +22,9 @@
   cursor: pointer;
   background: #ddd;
 }
-
+ #two{
+  float: right;
+}
 /* Change background picture based on class name */
 #board .space.veggies {
   background: url("img/veggies.jpg");
@@ -24,3 +34,33 @@
   background: url("img/junkfood.jpg");
   background-size: 100% 100%;
 }
+h3{
+  text-align: center;
+  font-size: 2em;
+  background: #ccc;
+  padding: 4px;
+}
+.alert-winner{
+  display: none;
+}
+.new-game{
+  margin-top: 10px;
+  height: 4em;
+  width: 9em;
+  border-radius: 3px;
+}
+.start{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.start button{
+  width: 12em;
+  height: 3em;
+  border-radius: 8px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+

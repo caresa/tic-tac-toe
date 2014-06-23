@@ -2,11 +2,16 @@
 <head>
   <title>Tic Tac Trouble</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 
 <h3>It's <span id="turn-label"></span>'s turn</h3>
+
+<div class="alert-winner"><span id="put-winner"></span></div>
+
+<div class="win-count"><span id="one">Player 1: xxx</span><span id="two">Player 2: xxx</span></div>
 
 <div id="board">
   <div class="space"></div>
@@ -18,6 +23,11 @@
   <div class="space"></div>
   <div class="space"></div>
   <div class="space"></div>
+</div>
+
+
+<div class="start">
+  <button type="button">Click Me!</button>
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
